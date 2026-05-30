@@ -1,0 +1,17 @@
+{
+  "name": "lebivest",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "LEBIVEST — quiet-luxury atelier. Static storefront built with Vite + Tailwind.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "tailwindcss": "^4.1.13",
+    "vite": "^6.3.5"
+  }
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Collection — LEBIVEST</title>
+    <meta name="description" content="Shop the LEBIVEST collection — trousers, abayas, gowns and outerwear carrying the signature gold kilim motif." />
+    <link rel="icon" type="image/jpeg" href="/images/1780074650582.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- header -->
+      <header class="mx-auto max-w-[1600px] px-5 sm:px-8 lg:px-12 pt-32 md:pt-44 pb-10 text-center border-b border-ink/10">
+        <p class="eyebrow text-stone">LEBIVEST — Autumn / Winter 2026</p>
+        <h1 data-shop-title class="display text-5xl md:text-7xl mt-5">The Collection</h1>
+        <p class="mt-5 max-w-xl mx-auto text-ink/70 text-[15px] leading-relaxed">
+          The signature gold kilim line, across tailoring, abayas, gowns and outerwear.
+        </p>
+      </header>
+
+      <!-- controls -->
+      <div class="sticky top-[68px] md:top-[88px] z-30 bg-white/92 backdrop-blur-md border-b border-ink/10">
+        <div class="mx-auto max-w-[1600px] px-5 sm:px-8 lg:px-12 py-4 flex flex-wrap items-center gap-x-6 gap-y-3">
+          <div data-cats class="flex flex-wrap gap-2"></div>
+          <div class="hidden sm:block w-px h-6 bg-ink/10"></div>
+          <div data-lines class="flex flex-wrap gap-2"></div>
+          <div class="ml-auto flex items-center gap-4">
+            <span data-count class="text-[0.72rem] tracking-[0.18em] uppercase text-stone"></span>
+            <label class="flex items-center gap-2 text-[0.72rem] tracking-[0.18em] uppercase text-stone">
+              Sort
+              <select data-sort class="bg-transparent border border-ink/20 px-3 py-2 text-ink focus:outline-none focus:border-ink cursor-pointer">
+                <option value="featured">Featured</option>
+                <option value="price-asc">Price · Low to high</option>
+                <option value="price-desc">Price · High to low</option>
+              </select>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- grid -->
+      <section class="mx-auto max-w-[1600px] px-5 sm:px-8 lg:px-12 py-14 md:py-20">
+        <div data-grid class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-5 gap-y-12"></div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/js/shop.js"></script>
+  </body>
+</html>
